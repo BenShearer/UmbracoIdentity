@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
   <metadata>
-    <id>UmbracoIdentity</id>
+    <id>UmbracoIdentity.SqlServer</id>
     <title>ASP.Net Identity for Umbraco Members</title>
     <version>0.0.0.0</version>
-    <authors>Shannon Deminick</authors>
-    <description>A library for enabling ASP.Net Identity to work with Umbraco front-end members</description>
-    <summary>A library for enabling ASP.Net Identity to work with Umbraco front-end members</summary>
+    <authors>Shannon Deminick, Forked by Ben Shearer</authors>
+    <description>A library for enabling ASP.Net Identity to work with Umbraco front-end members. Original code used a SqlCe data store. This one uses a SQL database rather than a Sql CE database</description>
+    <summary>A library for enabling ASP.Net Identity to work with Umbraco front-end members. Original nuget package available at https://www.nuget.org/packages/UmbracoIdentity/ Git: https://github.com/Shazwazza/UmbracoIdentity/ </summary>
     <language>en-US</language>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
-    <projectUrl>https://github.com/Shandem/UmbracoIdentity/</projectUrl>
+    <projectUrl>https://github.com/BenShearer/UmbracoIdentity</projectUrl>
     <tags>asp.net identity umbraco security authentication authorization owin</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
@@ -22,7 +22,7 @@
       <dependency id="Microsoft.Owin.Host.SystemWeb" version="2.1.0" />
       <dependency id="Microsoft.AspNet.Identity.Core" version="2.2.0" />
       <dependency id="Microsoft.AspNet.Identity.Owin" version="2.2.0" />
-      
+
     </dependencies>
   </metadata>
   <files>
